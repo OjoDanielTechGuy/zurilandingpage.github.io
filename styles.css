@@ -1,0 +1,226 @@
+body {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #ffffff;
+   color: #212529;
+
+}
+
+.logo {
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+
+.zuri-motto-container h2{
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 600;
+    color: #514949;
+    margin-bottom: 30px;
+}
+
+.zuri-motto-container{
+    background-image: url("images/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.zuri-motto-section{
+    margin: auto;
+    text-align: center;
+    max-width: 700px;   
+}
+
+.bold {
+    color: #514949;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+a{
+    color: #E7332B;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.zuri-mottoBtn{
+    margin-top: 90px;
+}
+ 
+.ntiBtn, .nieBtn{ /*ntiBtn: (New to industry), nieBtn:(need industry experience)*/
+    background-color:#E7332B;
+    border: none;
+    color: white;
+    margin-right: 25px;
+    padding: 15px 30px;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nieBtn{
+    background-color: white;
+    color: #E7332B;
+    border: 1px solid #E7332B;
+}
+
+.ntiBtn:hover{
+    background-color: white;
+    color: #E7332B;
+    border: 1px solid #E7332B;
+}
+
+.nieBtn:hover{
+    background-color: #E7332B;
+    color: white;    
+}
+
+.program-details-container{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    max-width: 1200px;
+    
+}
+
+.heading{
+    color: #E7332B;
+    font-size: 14px;
+}
+
+.header-slogan{
+    color: #514949;
+    font-size: 24px;
+    margin-top: 20px;
+    word-spacing: 2px;
+    line-height: 35px;
+    margin-bottom: 100px;
+}
+
+.zuri-option{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container{
+    max-width: 1240px !important;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.program-card{
+    position: relative;
+    z-index: -1;
+}
+
+.center-text{
+    text-align: center !important;
+}
+
+.zuri-section{
+    background-color: white;
+    padding: 61px 47px 82px 36px;
+}
+
+.left-text{
+    text-align: left;
+}
+
+.left-dots{
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -70px;
+    z-index: -1;
+}
+
+.zuri-section img{
+    margin-bottom: 50px;
+}
+
+.zuri-section p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.right-dots{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    right: -50px;
+    top: -70px;
+}
+
+.footer{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.follow-us img{
+    width: 20px;
+}
+
+.zuri-team{
+    margin-top: 30px;
+}
+
+footer hr{
+    border: 0.5px solid #9461e673;
+}
+
+.copyright{
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+/*setting media queries*/
+
+@media screen and (max-width: 600px){
+    .ntiBtn{
+        margin-bottom: 30px;
+    }
+
+    .footer-flex-container {
+        width: 100%;        
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .section-cointainer {
+        max-width: 400px;
+    }
+    
+}
